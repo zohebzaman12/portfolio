@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Suspense, lazy } from 'react'
+import ClickIncrease from './Components/ClickIncrease'
+import HoverIncrease from './Components/HoverIncrease'
 
-function App() {
+const LazyComponent = lazy(() => {
+  return new Promise(resolve => {
+    setTimeout(() => resolve(import('./Components/HoverIncrease')), 5000);
+  });
+});
+
+const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    {/*Render both of these components to the UI */}
+    <ClickIncrease />
+    <HoverIncrease />
+    <Suspense fallback={<div>Loading...</div>}>
+      <LazyComponent />
+    </Suspense>
+  </div>
+  )
 }
 
-export default App;
+export default App
