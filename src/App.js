@@ -1,8 +1,13 @@
 import React from 'react'
+import './App.css'
+import './mediaqueries.css'
+import NavBar from './Components/NavBar'
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <NavBar />
+    </div>
   )
 }
 
