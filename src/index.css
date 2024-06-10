@@ -2,7 +2,6 @@
 
 body {
   font-family: "Poppins", sans-serif;
-  background-color: #F2F2F2;
 }
 
 code {
@@ -21,5 +20,5 @@ html{
 }
 
 p{
-  color: black;
+  color: rgb(85,85,85);
 }

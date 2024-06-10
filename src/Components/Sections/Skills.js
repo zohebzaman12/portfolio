@@ -74,7 +74,7 @@ const Skills = () => {
           </div>
         </div>
       </div>
-      <img src={arrowIcon} alt='arrow icon' className='icon arrow'/>
+      <img src={arrowIcon} alt='arrow icon' className='icon arrow' onClick={()=> {window.location.href = './#projects'}}/>
     </section>
   );
 };

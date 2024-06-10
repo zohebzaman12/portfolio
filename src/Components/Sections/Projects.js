@@ -52,7 +52,7 @@ const Projects = () => {
         </div>
            
         </div>
-        <img src={arrowIcon} alt='arrow icon' className='icon arrow'/>
+        <img src={arrowIcon} alt='arrow icon' className='icon arrow'onClick={()=> {window.location.href = './#contact'}}/>
     </section>
   )
 }
