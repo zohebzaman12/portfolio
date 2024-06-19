@@ -1,16 +1,16 @@
-
-a, .btn{
+a,
+.btn {
   transition: all 300ms ease;
 }
 
 /* NAVIGATION */
 
-nav, .nav-links{
+nav,
+.nav-links {
   display: flex;
-  
 }
 
-nav{
+nav {
   justify-content: space-around;
   align-items: center;
   height: 17vh;
@@ -18,65 +18,61 @@ nav{
   background-color: white;
 }
 
-.nav-links{
+.nav-links {
   gap: 3rem;
   list-style: none;
   font-size: 1.5rem;
 }
 
-a{
+a {
   color: black;
   text-decoration: none;
   text-decoration-color: white;
 }
 
-a:hover{
+a:hover {
   color: grey;
   text-decoration: underline;
   text-underline-offset: 0.8rem;
-  text-decoration-color: rgb(181, 181, 181) ;
+  text-decoration-color: rgb(181, 181, 181);
 }
 
-.logo{
+.logo {
   font-size: 2rem;
-
 }
 
 .logo:hover {
   cursor: default;
 }
 
-
 /* SECTIONS */
 
-section{
+section {
   padding-top: 4vh;
-  height: 96vh;
+  height: auto;
   margin: 0 10rem;
-  box-sizing: border-box;
+  box-sizing: border-box; 
   min-height: fit-content;
+  margin-bottom: 3rem;
 }
 
 /* PROFILE */
 
-#profile{
-display: flex;
-justify-content: center;
-gap: 5rem;
-height: 80vh;
+#profile {
+  display: flex;
+  justify-content: center;
+  gap: 5rem;
+  height: 80vh;
 }
 
-.section__pic-container{
+.section__pic-container {
   display: flex;
   height: 400px;
   width: 400px;
   margin: auto 0;
-
 }
 
-
-
-.section__text{
+.section__text {
   align-self: center;
   text-align: center;
 }
@@ -113,7 +109,6 @@ height: 80vh;
   height: 2rem;
 }
 
-
 /* Buttons */
 
 .btn-container {
@@ -133,7 +128,7 @@ height: 80vh;
   border-color: rgb(163, 163, 163);
 }
 
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   background: rgb(53, 53, 53);
   color: white;
@@ -141,26 +136,24 @@ height: 80vh;
 
 /* ABOUT SECTION */
 
-#about{
+#about {
   position: relative;
 }
 
-
-
-.section-container{
+.section-container {
   display: flex;
   justify-content: center;
   gap: 5rem;
   height: 80%;
 }
-.about-containers{
+.about-containers {
   display: flex;
   justify-content: center;
   gap: 2rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.about-details-container{
+.about-details-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -176,35 +169,52 @@ height: 80vh;
   text-align: center;
 }
 
-.about-pic{
+.about-pic {
   border-radius: 2rem;
 }
 
-.arrow{
+.arrow {
   position: absolute;
   right: -5rem;
   bottom: 2.5rem;
 }
 
-
 /* SKILLS */
 
-#skills{
+#skills {
   position: relative;
 }
 
-.skill-icon{
+.skill-icon {
   height: 5rem;
 }
-.details-container{
+.details-container {
   padding: 1.5rem;
-  flex: 1;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+  
 }
+
+
+.skills-sub-title {
+  margin-top: 20px;
+  color: rgb(85, 85, 85);
+  font-weight: 600;
+  font-size: 1.75rem;
+  margin-bottom: 2rem;
+}
+.article-container {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  padding: 20px;
+  margin: 10px;
+  flex-wrap: wrap;
+}
+
 
 article{
   display: flex;
@@ -213,36 +223,29 @@ article{
   padding: 10px;
   gap: 1rem;
 }
-
-.skills-sub-title{
-  margin-top: 20px;
-  color: rgb(85, 85, 85);
-  font-weight: 600;
-  font-size: 1.75rem;
-  margin-bottom: 2rem;
-}
-.article-container{
-  display: flex;
-  gap: 2rem;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 20px;
-}
-
-.skills-detail-container{
-  margin-top: 1rem ;
-}
+/* 
+.skills-detail-container {
+  margin-top: 1rem;
+} */
 
 /* PROJECTS */
 
-#projects{
+#projects {
   position: relative;
 }
 
-.project-img{
+.project-img {
   border-radius: 2rem;
   width: 90%;
   height: 90%;
+}
+.project-details-container {
+  padding: 1.5rem;
+  background: white;
+  border-radius: 2rem;
+  border: rgb(53, 53, 53) 0.1rem solid;
+  border-color: rgb(163, 163, 163);
+  text-align: center;
 }
 
 .color-container {
@@ -250,12 +253,10 @@ article{
   background: rgb(250, 250, 250);
 }
 
-
-.project-title{
+.project-title {
   margin: 1rem;
   color: black;
 }
-
 
 /* CONTACT */
 
@@ -284,7 +285,6 @@ article{
   gap: 0.5rem;
   margin: 1rem;
 }
-
 
 /* FOOTER */
 

@@ -11,7 +11,7 @@ const Projects = () => {
         <h1 className="title">Projects</h1>
         <div className='skills-detail-container'>
         <div className='about-containers'>
-        <div className="details-container color-container">
+        <div className="project-details-container color-container">
                 <div className='project-container'>
                     <img src={projectImg1} alt='' class="project-img"/>
                     <div>
@@ -24,7 +24,7 @@ const Projects = () => {
                 </div>
 
             </div>
-            <div className="details-container color-container">
+            <div className="project-details-container color-container">
                 <div className='project-container'>
                     <img src={projectImg2} alt='' class="project-img"/>
                     <div>
@@ -37,7 +37,7 @@ const Projects = () => {
                 </div>
                 
             </div>
-            <div className="details-container color-container">
+            <div className="project-details-container color-container">
                 <div className='project-container'>
                     <img src={projectImg3} alt='' class="project-img"/>
                     <div>
