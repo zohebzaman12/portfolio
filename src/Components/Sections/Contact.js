@@ -7,7 +7,7 @@ const Contact = () => {
     <section id="contact">
       <p className="section__text__p1">Get in touch</p>
       <h1 className="title">Contact Me</h1>
-
+      <div class="contact-info-upper-container">
       <div className="contact-info-container">
         <div className="contact-info">
           <img src={emailIcon} className="icon" alt="Email icon" />
@@ -20,10 +20,12 @@ const Contact = () => {
         <div className="contact-info">
           <img src={linkedinIcon} className="icon" alt="LinkedIn icon" />
           <p>
-            <a href="https://www.linkedin.com">LinkedIn</a>
+            <a href="https://www.linkedin.com/in/zoheb-zaman-sheikh">LinkedIn</a>
           </p>
         </div>
       </div>
+      </div>
+     
     </section>
   );
 };
