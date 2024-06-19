@@ -8,22 +8,22 @@ const Contact = () => {
       <p className="section__text__p1">Get in touch</p>
       <h1 className="title">Contact Me</h1>
       <div class="contact-info-upper-container">
-      <div className="contact-info-container">
-        <div className="contact-info">
-          <img src={emailIcon} className="icon" alt="Email icon" />
-          <p>
-            <a href="mailto:zamansheikhzoheb@gmail.com">
-              zamansheikhzoheb@gmail.com
-            </a>
-          </p>
+      <div class="contact-info-container">
+          <img
+            src={emailIcon}
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">Example@gmail.com</a></p>
         </div>
-        <div className="contact-info">
-          <img src={linkedinIcon} className="icon" alt="LinkedIn icon" />
-          <p>
-            <a href="https://www.linkedin.com/in/zoheb-zaman-sheikh">LinkedIn</a>
-          </p>
+        <div class="contact-info-container">
+          <img
+            src={linkedinIcon}
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">LinkedIn</a></p>
         </div>
-      </div>
       </div>
      
     </section>

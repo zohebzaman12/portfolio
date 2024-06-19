@@ -264,7 +264,6 @@ article {
   flex-direction: column;
   height: 70vh;
 }
-
 .contact-info-upper-container {
   display: flex;
   justify-content: center;
@@ -277,14 +276,6 @@ article {
 }
 
 .contact-info-container {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  margin: 1rem;
-}
-
-.contact-info {
   display: flex;
   align-items: center;
   justify-content: center;
