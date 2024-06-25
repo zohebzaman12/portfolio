@@ -27,8 +27,8 @@ const HamburgerNav = () => {
               </a>
             </li>
             <li>
-              <a href="#experience" onClick={toggleMenu}>
-                Experience
+              <a href="#skills" onClick={toggleMenu}>
+                Skills
               </a>
             </li>
             <li>

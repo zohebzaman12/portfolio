@@ -3,6 +3,7 @@ import aboutPic from "../../Assets/AboutPic.png";
 import experienceIcon from "../../Assets/experience.png";
 import educationIcon from "../../Assets/education.png";
 import arrowIcon from "../../Assets/arrow.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const About = () => {
   return (
@@ -11,7 +12,7 @@ const About = () => {
       <h1 className="title">About Me</h1>
       <div className="section-container">
         <div className="section__pic-container">
-          <img src={aboutPic} alt="profile picture" className="about-pic" />
+          <LazyLoadImage src={aboutPic} alt="profile picture" className="about-pic" />
         </div>
         <div className="about-details-container">
           <div className="about-containers">

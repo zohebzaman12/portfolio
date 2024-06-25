@@ -3,12 +3,13 @@ import logo from "../../Assets/Profile.png";
 import cvPdf from "../../Assets/Zoheb_Zaman_CV_V1.pdf";
 import linkedinLogo from "../../Assets/linkedin.png";
 import githubLogo from "../../Assets/github.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Profile = () => {
   return (
     <section id="profile">
       <div className="section__pic-container">
-        <img src={logo} alt=""></img>
+        <LazyLoadImage src={logo} alt=""/>
       </div>
       <div className="section__text">
         <p className="section__text__p1">Hey, I'm</p>

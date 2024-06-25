@@ -3,6 +3,7 @@ import projectImg1 from "../../Assets/project-1.png";
 // import projectImg2 from '../../Assets/project-2.png'
 import projectImg3 from "../../Assets/project-3.png";
 import arrowIcon from "../../Assets/arrow.png";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Projects = () => {
   return (
@@ -13,7 +14,7 @@ const Projects = () => {
         <div className="about-containers">
           <div className="project-details-container color-container">
             <div className="project-container">
-              <img src={projectImg1} alt="" class="project-img" />
+              <LazyLoadImage src={projectImg1} alt="" class="project-img" />
               <div>
                 <h2 class="experience-sub-title project-title">
                   FitHub - A Fitness Website
@@ -60,7 +61,7 @@ const Projects = () => {
             </div> */}
           <div className="project-details-container color-container">
             <div className="project-container">
-              <img src={projectImg3} alt="" class="project-img" />
+              <LazyLoadImage src={projectImg3} alt="" class="project-img" />
               <div>
                 <h2 class="experience-sub-title project-title">
                   Morse Code Translator
