@@ -1,9 +1,8 @@
 import React from "react";
 import projectImg1 from "../../Assets/project-1.png";
-// import projectImg2 from '../../Assets/project-2.png'
+import projectImg2 from "../../Assets/project-2.png";
 import projectImg3 from "../../Assets/project-3.png";
 import arrowIcon from "../../Assets/arrow.png";
-import { LazyLoadImage } from "react-lazy-load-image-component";
 
 const Projects = () => {
   return (
@@ -14,7 +13,7 @@ const Projects = () => {
         <div className="about-containers">
           <div className="project-details-container color-container">
             <div className="project-container">
-              <LazyLoadImage src={projectImg1} alt="" class="project-img" />
+              <img src={projectImg1} alt="" class="project-img" />
               <div>
                 <h2 class="experience-sub-title project-title">
                   FitHub - A Fitness Website
@@ -46,22 +45,41 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          {/* <div className="project-details-container color-container">
-                <div className='project-container'>
-                    <img src={projectImg2} alt='' class="project-img"/>
-                    <div>
-                        <h2 class="experience-sub-title project-title">Project One</h2>
-                        <div className='btn-container'>
-                            <button className='btn'>Github</button>
-                            <button className='btn'>Live Demo</button>
-                        </div>
-                    </div>
-                </div>
-                
-            </div> */}
           <div className="project-details-container color-container">
             <div className="project-container">
-              <LazyLoadImage src={projectImg3} alt="" class="project-img" />
+              <img src={projectImg2} alt="" class="project-img" />
+              <div>
+                <h2 class="experience-sub-title project-title">RupeeTrack</h2>
+                <div className="btn-container">
+                  <button
+                    className="btn"
+                    onClick={() =>
+                      window.open(
+                        "https://github.com/zohebzaman12/budget-app",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Github
+                  </button>
+                  <button
+                    className="btn"
+                    onClick={() =>
+                      window.open(
+                        "https://rupeetrack.netlify.app/",
+                        "_blank"
+                      )
+                    }
+                  >
+                    Live Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="project-details-container color-container">
+            <div className="project-container">
+              <img src={projectImg3} alt="" class="project-img" />
               <div>
                 <h2 class="experience-sub-title project-title">
                   Morse Code Translator
