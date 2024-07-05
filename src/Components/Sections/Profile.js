@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../Assets/Profile.png";
-import cvPdf from "../../Assets/Zoheb_Zaman_CV_V1.pdf";
+import cvPdf from "../../Assets/Zoheb_Zaman_Resume_v2.pdf";
 import linkedinLogo from "../../Assets/linkedin.png";
 import githubLogo from "../../Assets/github.png";
 
