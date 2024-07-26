@@ -1,5 +1,5 @@
 import React from "react";
-import aboutPic from "../../Assets/AboutPic.png";
+import aboutPic from "../../Assets/AboutPic.jpg";
 import experienceIcon from "../../Assets/experience.png";
 import educationIcon from "../../Assets/education.png";
 import arrowIcon from "../../Assets/arrow.png";

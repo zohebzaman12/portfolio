@@ -1,7 +1,7 @@
 import React from "react";
-import projectImg1 from "../../Assets/project-1.png";
-import projectImg2 from "../../Assets/project-2.png";
-import projectImg3 from "../../Assets/project-3.png";
+import projectImg1 from "../../Assets/project-1.jpg";
+import projectImg2 from "../../Assets/project-2.jpg";
+import projectImg3 from "../../Assets/project-3.jpg";
 import arrowIcon from "../../Assets/arrow.png";
 
 const Projects = () => {
